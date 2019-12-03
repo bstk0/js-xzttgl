@@ -1,5 +1,8 @@
 // Import stylesheets
 import './style.css';
+import { square } from 'mylib.js';
+
+console.log(square(11)); // 121
 
 // Write Javascript code!
 const appDiv = document.getElementById('app');
