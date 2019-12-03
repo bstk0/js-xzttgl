@@ -22,3 +22,4 @@ appDiv.innerHTML += '<h2>' + formatterBR.format(14495.6) + '</h2>';
 
 //teste - funcionou.
 hello('Bisterco');
+hello('teste commit...');
