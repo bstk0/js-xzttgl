@@ -1,6 +1,8 @@
+import { square } from './mylib.js';
+import { hello } from './hello.js';
 // Import stylesheets
 import './style.css';
-import { square } from 'mylib.js';
+
 
 console.log(square(11)); // 121
 
@@ -17,3 +19,6 @@ var formatterBR = new Intl.NumberFormat('pt-BR', {
 });
 
 appDiv.innerHTML += '<h2>' + formatterBR.format(14495.6) + '</h2>';
+
+//teste - funcionou.
+hello('Bisterco');
