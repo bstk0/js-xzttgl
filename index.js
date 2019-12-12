@@ -1,6 +1,7 @@
 import { square } from './mylib.js';
 import { hello } from './hello.js';
 import { showTodosConsole } from './fetchapi.js';
+import { showTodosAppDiv } from './fetchapi.js';
 // Import stylesheets
 import './style.css';
 
@@ -28,4 +29,6 @@ hello('Square 4 = ' + square(4));
 
 hello('... VER CONSOLE ...');
 
-showTodosConsole();
+//showTodosConsole();
+
+showTodosAppDiv();
