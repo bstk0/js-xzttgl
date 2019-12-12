@@ -1,5 +1,6 @@
 import { square } from './mylib.js';
 import { hello } from './hello.js';
+import { showTodosConsole } from './fetchapi.js';
 // Import stylesheets
 import './style.css';
 
@@ -25,3 +26,6 @@ hello('Bisterco');
 hello('teste commit...');
 hello('Square 4 = ' + square(4));
 
+hello('... VER CONSOLE ...');
+
+showTodosConsole();
