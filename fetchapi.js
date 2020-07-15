@@ -23,7 +23,8 @@ fetch('https://jsonplaceholder.typicode.com/todos')
       appDiv1.innerHTML += '<BR>3 PRIMEIROS:<BR>'
       appDiv1.innerHTML += '<BR>Id:' + data[0].id + ' / Title: ' + data[0].title + '<br>'
       appDiv1.innerHTML += '<BR>Id:' + data[1].id + ' / Title: ' + data[1].title + '<br>'
-      appDiv1.innerHTML += '<BR>Id:' + data[2].id + ' / Title: ' + data[2].title + '<br><br>'      
+      //concatenacao moderna
+      appDiv1.innerHTML += `<BR>Id: ${data[2].id} Title: ${data[2].title} <br><br>`      
       }
     )
 } 
