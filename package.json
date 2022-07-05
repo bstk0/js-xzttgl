@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "pg": "^8.7.1",
-    "pg-native": ">=2.0.0",
-    "dns": "0.2.2"
+    "emitter": "^0.0.5",
+    "pg": "8.7.3",
+    "pg-native": "^3.0.0"
   }
 }
