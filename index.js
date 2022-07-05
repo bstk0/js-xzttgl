@@ -2,7 +2,7 @@ import { square } from './mylib.js';
 import { hello } from './hello.js';
 import { showTodosConsole } from './fetchapi.js';
 import { showTodosAppDiv } from './fetchapi.js';
-import { showBitIoConn } from './bitioConn.js';
+//import { showBitIoConn } from './bitioConn.js';
 
 // Import stylesheets
 import './style.css';
@@ -34,4 +34,4 @@ hello('... VER CONSOLE ...');
 
 showTodosAppDiv();
 
-showBitIoConn();
+//showBitIoConn();
